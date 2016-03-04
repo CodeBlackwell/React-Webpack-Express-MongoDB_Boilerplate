@@ -1,8 +1,7 @@
 {
   "name": "React-Webpack-Express-MongoDB_Boilerplate",
   "version": "1.0.0",
-  "description": "Basic React ToDo list in ES6 ready with express, webpack,
-  and mongoDB",
+  "description": "Basic React ToDo list in ES6 ready with express, webpack, and mongoDB",
   "main": "index.js",
   "repository": {
     "type": "git",
