@@ -9,7 +9,7 @@ var mongoose = require('mongoose');
 var app = express();
 
 
-var databaseCollection = require('../data/db/MongooseSchema.model');
+var databaseCollection = require('../data/db/MongooseSchema.model.js');
 
 //Database Names have an 's' added
 var db = 'mongodb://localhost/databaseName';
