@@ -14,7 +14,10 @@ var databaseCollection = require('../data/db/MongooseSchema.model.js');
 //Database Names have an 's' added
 var db = 'mongodb://localhost/databaseName';
 
-mongoose.connect(db);
+//Uncomment line 20 if you wish to connect to a local database
+//If so, ensure you have mongod running in terminal
+
+//mongoose.connect(db);
 
 var port = process.env.PORT || 3000;
 
